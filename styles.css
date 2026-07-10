@@ -104,7 +104,7 @@ gap: 35px;
 .speaker-grid{
     display: grid;
     grid-template-columns:repeat(2,1fr);
-    gap:35px;
+    gap: 30px;
 }
 
 .card {
@@ -131,9 +131,60 @@ gap: 35px;
 .card-body small {
     display: inline-block;
     background: #ffe9e4;
-    color:;
+    
     padding: 6px 14px;
     border-radius: 30px;
     font: weight 600px;
     margin: bottom 15px;
+}
+
+.card-body h3{
+    font-size: 24px;
+    color: #1d2843;
+    margin-bottom: 10px;
+}
+
+.card-body p{
+    color: #666;
+    font-size: 15px;
+}
+
+/*pricing */
+
+.pricing{
+    padding: 100px 0;
+    background: #f8f9fc;
+}
+
+.pricing h2{
+    text-align: center;
+    font-size: 42px;
+    color: #18233d;
+    margin-bottom: 10px;
+}
+
+.pricing-subtitle{
+    text-align: center;
+    color: #777;
+    margin-bottom: 60px;
+    font-size: 17px;
+}
+
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.price-card{
+    background:#ffffff;
+    padding:40px 30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.price-card:hover{
+    transform:translateY(-10px);
 }
